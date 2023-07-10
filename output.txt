@@ -1,0 +1,319 @@
+failed to get console mode for stdout: The handle is invalid.
+[1A[1B[0G[?25l[+] Running 0/0
+ - Network dockervalidation_default  Creating[34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockervalidation_default  Creating[34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockervalidation_default  Creating[34m0.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockervalidation_default  Creating[34m0.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockervalidation_default  Creating[34m0.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockervalidation_default  Creating[34m0.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockervalidation_default  Creating[34m0.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockervalidation_default  Creating[34m0.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 2/1
+ [32m✔[0m Network dockervalidation_default      [32mCreated[0m[34m0.8s [0m
+ [32m✔[0m Container selenium-hub                [32mCreated[0m[34m0.0s [0m
+ - Container dockervalidation-firefox-1  Creating[34m0.0s [0m
+ - Container dockervalidation-chrome-1   Creating[34m0.0s [0m
+ - Container dockervalidation-edge-1     Creating[34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 5/5[0m
+ [32m✔[0m Network dockervalidation_default      [32mCreated[0m[34m0.8s [0m
+ [32m✔[0m Container selenium-hub                [32mCreated[0m[34m0.0s [0m
+ [32m✔[0m Container dockervalidation-firefox-1  [32mCreated[0m[34m0.1s [0m
+ [32m✔[0m Container dockervalidation-chrome-1   [32mCreated[0m[34m0.1s [0m
+ [32m✔[0m Container dockervalidation-edge-1     [32mCreated[0m[34m0.1s [0m
+[?25hAttaching to dockervalidation-chrome-1, dockervalidation-edge-1, dockervalidation-firefox-1, selenium-hub
+selenium-hub                | 2023-07-10 17:30:12,251 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+selenium-hub                | 2023-07-10 17:30:12,257 INFO RPC interface 'supervisor' initialized
+selenium-hub                | 2023-07-10 17:30:12,257 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+selenium-hub                | 2023-07-10 17:30:12,258 INFO supervisord started with pid 8
+selenium-hub                | 2023-07-10 17:30:13,263 INFO spawned: 'selenium-grid-hub' with pid 10
+selenium-hub                | Tracing is disabled
+selenium-hub                | 2023-07-10 17:30:13,271 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub                | 17:30:13.929 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+selenium-hub                | 17:30:13.940 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+selenium-hub                | 17:30:14.107 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://192.168.224.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://192.168.224.2:4443]
+selenium-hub                | 17:30:14.193 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://192.168.224.2:4442 and tcp://192.168.224.2:4443
+selenium-hub                | 17:30:14.230 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockervalidation-firefox-1  | 2023-07-10 17:30:14,593 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockervalidation-firefox-1  | 2023-07-10 17:30:14,603 INFO RPC interface 'supervisor' initialized
+dockervalidation-firefox-1  | 2023-07-10 17:30:14,603 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+dockervalidation-firefox-1  | 2023-07-10 17:30:14,605 INFO supervisord started with pid 8
+dockervalidation-edge-1     | 2023-07-10 17:30:14,660 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockervalidation-chrome-1   | 2023-07-10 17:30:14,661 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockervalidation-edge-1     | 2023-07-10 17:30:14,666 INFO RPC interface 'supervisor' initialized
+dockervalidation-edge-1     | 2023-07-10 17:30:14,666 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+dockervalidation-chrome-1   | 2023-07-10 17:30:14,666 INFO RPC interface 'supervisor' initialized
+dockervalidation-chrome-1   | 2023-07-10 17:30:14,667 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+dockervalidation-edge-1     | 2023-07-10 17:30:14,667 INFO supervisord started with pid 8
+dockervalidation-chrome-1   | 2023-07-10 17:30:14,667 INFO supervisord started with pid 8
+selenium-hub                | 17:30:15.233 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockervalidation-firefox-1  | 2023-07-10 17:30:15,612 INFO spawned: 'xvfb' with pid 10
+dockervalidation-firefox-1  | 2023-07-10 17:30:15,617 INFO spawned: 'vnc' with pid 11
+dockervalidation-firefox-1  | 2023-07-10 17:30:15,623 INFO spawned: 'novnc' with pid 12
+dockervalidation-firefox-1  | 2023-07-10 17:30:15,632 INFO spawned: 'selenium-node' with pid 17
+dockervalidation-firefox-1  | 2023-07-10 17:30:15,655 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockervalidation-edge-1     | 2023-07-10 17:30:15,672 INFO spawned: 'xvfb' with pid 10
+dockervalidation-chrome-1   | 2023-07-10 17:30:15,672 INFO spawned: 'xvfb' with pid 10
+dockervalidation-chrome-1   | 2023-07-10 17:30:15,679 INFO spawned: 'vnc' with pid 11
+dockervalidation-edge-1     | 2023-07-10 17:30:15,679 INFO spawned: 'vnc' with pid 11
+dockervalidation-edge-1     | 2023-07-10 17:30:15,691 INFO spawned: 'novnc' with pid 13
+dockervalidation-chrome-1   | 2023-07-10 17:30:15,690 INFO spawned: 'novnc' with pid 14
+dockervalidation-edge-1     | 2023-07-10 17:30:15,695 INFO spawned: 'selenium-node' with pid 16
+dockervalidation-chrome-1   | 2023-07-10 17:30:15,696 INFO spawned: 'selenium-node' with pid 18
+dockervalidation-chrome-1   | 2023-07-10 17:30:15,730 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockervalidation-edge-1     | 2023-07-10 17:30:15,747 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockervalidation-firefox-1  | Generating Selenium Config
+dockervalidation-firefox-1  | Configuring server...
+dockervalidation-firefox-1  | Setting up SE_NODE_HOST...
+dockervalidation-firefox-1  | Setting up SE_NODE_PORT...
+dockervalidation-firefox-1  | Setting up SE_NODE_GRID_URL...
+dockervalidation-chrome-1   | Generating Selenium Config
+dockervalidation-chrome-1   | Configuring server...
+dockervalidation-chrome-1   | Setting up SE_NODE_HOST...
+dockervalidation-chrome-1   | Setting up SE_NODE_PORT...
+dockervalidation-chrome-1   | Setting up SE_NODE_GRID_URL...
+dockervalidation-edge-1     | Generating Selenium Config
+dockervalidation-edge-1     | Configuring server...
+dockervalidation-edge-1     | Setting up SE_NODE_HOST...
+dockervalidation-edge-1     | Setting up SE_NODE_PORT...
+dockervalidation-edge-1     | Setting up SE_NODE_GRID_URL...
+dockervalidation-firefox-1  | Tracing is disabled
+dockervalidation-firefox-1  | Selenium Grid Node configuration: 
+dockervalidation-firefox-1  | [events]
+dockervalidation-firefox-1  | publish = "tcp://selenium-hub:4442"
+dockervalidation-firefox-1  | subscribe = "tcp://selenium-hub:4443"
+dockervalidation-firefox-1  | 
+dockervalidation-firefox-1  | [node]
+dockervalidation-firefox-1  | session-timeout = "300"
+dockervalidation-firefox-1  | override-max-sessions = false
+dockervalidation-firefox-1  | detect-drivers = false
+dockervalidation-firefox-1  | drain-after-session-count = 0
+dockervalidation-firefox-1  | max-sessions = 1
+dockervalidation-firefox-1  | 
+dockervalidation-firefox-1  | [[node.driver-configuration]]
+dockervalidation-firefox-1  | display-name = "firefox"
+dockervalidation-firefox-1  | stereotype = '{"browserName": "firefox", "browserVersion": "114.0", "platformName": "Linux"}'
+dockervalidation-firefox-1  | max-sessions = 1
+dockervalidation-firefox-1  | 
+dockervalidation-firefox-1  | 
+dockervalidation-firefox-1  | Starting Selenium Grid Node...
+dockervalidation-firefox-1  | 2023-07-10 17:30:16,654 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-firefox-1  | 2023-07-10 17:30:16,654 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-firefox-1  | 2023-07-10 17:30:16,654 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-edge-1     | 2023-07-10 17:30:16,667 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-chrome-1   | Tracing is disabled
+dockervalidation-chrome-1   | Selenium Grid Node configuration: 
+dockervalidation-chrome-1   | 2023-07-10 17:30:16,709 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-chrome-1   | 2023-07-10 17:30:16,709 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-chrome-1   | 2023-07-10 17:30:16,710 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-chrome-1   | [events]
+dockervalidation-chrome-1   | publish = "tcp://selenium-hub:4442"
+dockervalidation-chrome-1   | subscribe = "tcp://selenium-hub:4443"
+dockervalidation-chrome-1   | 
+dockervalidation-chrome-1   | [node]
+dockervalidation-chrome-1   | session-timeout = "300"
+dockervalidation-chrome-1   | override-max-sessions = false
+dockervalidation-chrome-1   | detect-drivers = false
+dockervalidation-chrome-1   | drain-after-session-count = 0
+dockervalidation-chrome-1   | max-sessions = 1
+dockervalidation-chrome-1   | 
+dockervalidation-chrome-1   | [[node.driver-configuration]]
+dockervalidation-chrome-1   | display-name = "chrome"
+dockervalidation-chrome-1   | stereotype = '{"browserName": "chrome", "browserVersion": "114.0", "platformName": "Linux"}'
+dockervalidation-chrome-1   | max-sessions = 1
+dockervalidation-chrome-1   | 
+dockervalidation-chrome-1   | Starting Selenium Grid Node...
+dockervalidation-chrome-1   | 
+dockervalidation-edge-1     | 2023-07-10 17:30:16,820 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-edge-1     | 2023-07-10 17:30:16,820 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-edge-1     | Tracing is disabled
+dockervalidation-edge-1     | Selenium Grid Node configuration: 
+dockervalidation-edge-1     | [events]
+dockervalidation-edge-1     | publish = "tcp://selenium-hub:4442"
+dockervalidation-edge-1     | subscribe = "tcp://selenium-hub:4443"
+dockervalidation-edge-1     | 
+dockervalidation-edge-1     | [node]
+dockervalidation-edge-1     | session-timeout = "300"
+dockervalidation-edge-1     | override-max-sessions = false
+dockervalidation-edge-1     | detect-drivers = false
+dockervalidation-edge-1     | drain-after-session-count = 0
+dockervalidation-edge-1     | max-sessions = 1
+dockervalidation-edge-1     | 
+dockervalidation-edge-1     | [[node.driver-configuration]]
+dockervalidation-edge-1     | display-name = "MicrosoftEdge"
+dockervalidation-edge-1     | stereotype = '{"browserName": "MicrosoftEdge", "browserVersion": "114.0", "platformName": "Linux"}'
+dockervalidation-edge-1     | max-sessions = 1
+dockervalidation-edge-1     | 
+dockervalidation-edge-1     | Starting Selenium Grid Node...
+dockervalidation-edge-1     | 
+selenium-hub                | 17:30:17.238 INFO [Hub.execute] - Started Selenium Hub 4.10.0 (revision c14d967899): http://192.168.224.2:4444
+dockervalidation-firefox-1  | 17:30:18.103 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockervalidation-firefox-1  | 17:30:18.127 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockervalidation-chrome-1   | 17:30:18.432 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockervalidation-chrome-1   | 17:30:18.448 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockervalidation-firefox-1  | 17:30:18.617 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockervalidation-edge-1     | 17:30:18.642 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockervalidation-edge-1     | 17:30:18.656 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockervalidation-firefox-1  | 17:30:18.910 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockervalidation-chrome-1   | 17:30:18.929 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockervalidation-chrome-1   | 17:30:19.179 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockervalidation-edge-1     | 17:30:19.206 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockervalidation-edge-1     | 17:30:19.347 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockervalidation-firefox-1  | 17:30:19.956 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockervalidation-firefox-1  | 17:30:20.121 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.224.4:5555
+dockervalidation-firefox-1  | 17:30:20.162 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockervalidation-chrome-1   | 17:30:20.191 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockervalidation-firefox-1  | 17:30:20.314 INFO [NodeOptions.report] - Adding firefox for {"browserName": "firefox","browserVersion": "114.0","platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times (Host)
+dockervalidation-edge-1     | 17:30:20.350 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockervalidation-firefox-1  | 17:30:20.360 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+dockervalidation-chrome-1   | 17:30:20.509 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.224.5:5555
+dockervalidation-chrome-1   | 17:30:20.597 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockervalidation-firefox-2  | 2023-07-10 17:30:20,644 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockervalidation-firefox-2  | 2023-07-10 17:30:20,653 INFO RPC interface 'supervisor' initialized
+dockervalidation-firefox-2  | 2023-07-10 17:30:20,653 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+dockervalidation-firefox-2  | 2023-07-10 17:30:20,657 INFO supervisord started with pid 8
+dockervalidation-edge-1     | 17:30:20.684 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.224.3:5555
+dockervalidation-edge-1     | 17:30:20.727 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockervalidation-chrome-1   | 17:30:20.728 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "114.0","platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times (Host)
+dockervalidation-chrome-1   | 17:30:20.776 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+dockervalidation-firefox-1  | 17:30:20.854 INFO [NodeServer$1.start] - Starting registration process for Node http://192.168.224.4:5555
+dockervalidation-firefox-1  | 17:30:20.856 INFO [NodeServer.execute] - Started Selenium node 4.10.0 (revision c14d967899): http://192.168.224.4:5555
+dockervalidation-edge-1     | 17:30:20.866 INFO [NodeOptions.report] - Adding MicrosoftEdge for {"browserName": "MicrosoftEdge","browserVersion": "114.0","platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times (Host)
+dockervalidation-firefox-1  | 17:30:20.888 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+dockervalidation-edge-1     | 17:30:20.916 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub                | 17:30:20.966 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+dockervalidation-chrome-1   | 17:30:21.154 INFO [NodeServer$1.start] - Starting registration process for Node http://192.168.224.5:5555
+dockervalidation-chrome-1   | 17:30:21.157 INFO [NodeServer.execute] - Started Selenium node 4.10.0 (revision c14d967899): http://192.168.224.5:5555
+dockervalidation-chrome-1   | 17:30:21.180 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+dockervalidation-edge-1     | 17:30:21.277 INFO [NodeServer$1.start] - Starting registration process for Node http://192.168.224.3:5555
+dockervalidation-edge-1     | 17:30:21.279 INFO [NodeServer.execute] - Started Selenium node 4.10.0 (revision c14d967899): http://192.168.224.3:5555
+dockervalidation-edge-1     | 17:30:21.299 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub                | 17:30:21.600 INFO [GridModel.setAvailability] - Switching Node f4202031-9c73-4547-8b23-c3157ea0dc86 (uri: http://192.168.224.4:5555) from DOWN to UP
+selenium-hub                | 17:30:21.600 INFO [LocalDistributor.add] - Added node f4202031-9c73-4547-8b23-c3157ea0dc86 at http://192.168.224.4:5555. Health check every 120s
+selenium-hub                | 17:30:21.603 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+dockervalidation-firefox-1  | 17:30:21.615 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+dockervalidation-firefox-2  | 2023-07-10 17:30:21,661 INFO spawned: 'xvfb' with pid 10
+dockervalidation-firefox-2  | 2023-07-10 17:30:21,668 INFO spawned: 'vnc' with pid 11
+dockervalidation-firefox-2  | 2023-07-10 17:30:21,672 INFO spawned: 'novnc' with pid 13
+dockervalidation-firefox-2  | 2023-07-10 17:30:21,675 INFO spawned: 'selenium-node' with pid 20
+dockervalidation-firefox-2  | 2023-07-10 17:30:21,689 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub                | 17:30:21.825 INFO [GridModel.setAvailability] - Switching Node decd9d42-0830-43b1-98da-a487a5e0e85f (uri: http://192.168.224.5:5555) from DOWN to UP
+selenium-hub                | 17:30:21.825 INFO [LocalDistributor.add] - Added node decd9d42-0830-43b1-98da-a487a5e0e85f at http://192.168.224.5:5555. Health check every 120s
+selenium-hub                | 17:30:21.829 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+dockervalidation-chrome-1   | 17:30:21.833 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+dockervalidation-firefox-2  | Generating Selenium Config
+selenium-hub                | 17:30:22.038 INFO [GridModel.setAvailability] - Switching Node 2f3f0a8a-782e-4abe-a65c-344ba8dae7cf (uri: http://192.168.224.3:5555) from DOWN to UP
+selenium-hub                | 17:30:22.039 INFO [LocalDistributor.add] - Added node 2f3f0a8a-782e-4abe-a65c-344ba8dae7cf at http://192.168.224.3:5555. Health check every 120s
+dockervalidation-firefox-2  | Configuring server...
+dockervalidation-firefox-2  | Setting up SE_NODE_HOST...
+dockervalidation-firefox-2  | Setting up SE_NODE_PORT...
+dockervalidation-firefox-2  | Setting up SE_NODE_GRID_URL...
+dockervalidation-edge-1     | 17:30:22.045 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+dockervalidation-firefox-2  | Tracing is disabled
+dockervalidation-firefox-2  | Selenium Grid Node configuration: 
+dockervalidation-firefox-2  | [events]
+dockervalidation-firefox-2  | publish = "tcp://selenium-hub:4442"
+dockervalidation-firefox-2  | subscribe = "tcp://selenium-hub:4443"
+dockervalidation-firefox-2  | 
+dockervalidation-firefox-2  | [node]
+dockervalidation-firefox-2  | session-timeout = "300"
+dockervalidation-firefox-2  | override-max-sessions = false
+dockervalidation-firefox-2  | detect-drivers = false
+dockervalidation-firefox-2  | drain-after-session-count = 0
+dockervalidation-firefox-2  | max-sessions = 1
+dockervalidation-firefox-2  | 
+dockervalidation-firefox-2  | [[node.driver-configuration]]
+dockervalidation-firefox-2  | display-name = "firefox"
+dockervalidation-firefox-2  | stereotype = '{"browserName": "firefox", "browserVersion": "114.0", "platformName": "Linux"}'
+dockervalidation-firefox-2  | max-sessions = 1
+dockervalidation-firefox-2  | 
+dockervalidation-firefox-2  | 
+dockervalidation-firefox-2  | Starting Selenium Grid Node...
+dockervalidation-firefox-2  | 17:30:22.607 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockervalidation-firefox-2  | 17:30:22.615 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockervalidation-firefox-2  | 2023-07-10 17:30:22,699 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-firefox-2  | 2023-07-10 17:30:22,699 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-firefox-2  | 2023-07-10 17:30:22,699 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+dockervalidation-firefox-2  | 17:30:22.773 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockervalidation-firefox-2  | 17:30:22.867 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockervalidation-firefox-2  | 17:30:23.870 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockervalidation-firefox-2  | 17:30:23.995 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.224.6:5555
+dockervalidation-firefox-2  | 17:30:24.014 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockervalidation-firefox-2  | 17:30:24.056 INFO [NodeOptions.report] - Adding firefox for {"browserName": "firefox","browserVersion": "114.0","platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times (Host)
+dockervalidation-firefox-2  | 17:30:24.074 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+dockervalidation-firefox-2  | 17:30:24.275 INFO [NodeServer$1.start] - Starting registration process for Node http://192.168.224.6:5555
+dockervalidation-firefox-2  | 17:30:24.276 INFO [NodeServer.execute] - Started Selenium node 4.10.0 (revision c14d967899): http://192.168.224.6:5555
+dockervalidation-firefox-2  | 17:30:24.289 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub                | 17:30:24.298 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub                | 17:30:24.462 INFO [GridModel.setAvailability] - Switching Node 8ccbc899-6c10-4c1d-9c21-3279208b299c (uri: http://192.168.224.6:5555) from DOWN to UP
+selenium-hub                | 17:30:24.463 INFO [LocalDistributor.add] - Added node 8ccbc899-6c10-4c1d-9c21-3279208b299c at http://192.168.224.6:5555. Health check every 120s
+dockervalidation-firefox-2  | 17:30:24.471 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub                | 17:30:28.533 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub                |  [Capabilities {browserName: firefox}]
+selenium-hub                | 17:30:28.533 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub                |  [Capabilities {browserName: firefox}]
+dockervalidation-firefox-1  | 17:30:28.606 INFO [DriverService$Builder.getLogOutput] - Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+dockervalidation-firefox-2  | 17:30:28.607 INFO [DriverService$Builder.getLogOutput] - Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+dockervalidation-firefox-1  | 17:30:34.576 INFO [LocalNode.newSession] - Session created by the Node. Id: a199105c-6801-4669-9053-f6b06fb0224e, Caps: Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 114.0, moz:accessibilityChecks: false, moz:buildID: 20230608214645, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.10.16.3-microsoft-standar..., moz:processID: 151, moz:profile: /tmp/rust_mozprofileeOKEw8, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidi: ws://192.168.224.4:4444/ses..., se:cdp: ws://192.168.224.4:4444/ses..., se:noVncPort: 7900, se:vnc: ws://192.168.224.4:4444/ses..., se:vncEnabled: true, se:vncLocalAddress: ws://192.168.224.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+selenium-hub                | 17:30:34.701 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: a199105c-6801-4669-9053-f6b06fb0224e 
+selenium-hub                |  Caps: Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 114.0, moz:accessibilityChecks: false, moz:buildID: 20230608214645, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.10.16.3-microsoft-standar..., moz:processID: 151, moz:profile: /tmp/rust_mozprofileeOKEw8, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidi: ws://192.168.224.4:4444/ses..., se:cdp: ws://192.168.224.4:4444/ses..., se:noVncPort: 7900, se:vnc: ws://192.168.224.4:4444/ses..., se:vncEnabled: true, se:vncLocalAddress: ws://192.168.224.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+dockervalidation-firefox-2  | 17:30:34.917 INFO [LocalNode.newSession] - Session created by the Node. Id: 07c4b8a3-576f-4722-bb82-b6a3f751121a, Caps: Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 114.0, moz:accessibilityChecks: false, moz:buildID: 20230608214645, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.10.16.3-microsoft-standar..., moz:processID: 146, moz:profile: /tmp/rust_mozprofileIaYIIz, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidi: ws://192.168.224.6:4444/ses..., se:cdp: ws://192.168.224.6:4444/ses..., se:noVncPort: 7900, se:vnc: ws://192.168.224.6:4444/ses..., se:vncEnabled: true, se:vncLocalAddress: ws://192.168.224.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+selenium-hub                | 17:30:34.966 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 07c4b8a3-576f-4722-bb82-b6a3f751121a 
+selenium-hub                |  Caps: Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 114.0, moz:accessibilityChecks: false, moz:buildID: 20230608214645, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.10.16.3-microsoft-standar..., moz:processID: 146, moz:profile: /tmp/rust_mozprofileIaYIIz, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidi: ws://192.168.224.6:4444/ses..., se:cdp: ws://192.168.224.6:4444/ses..., se:noVncPort: 7900, se:vnc: ws://192.168.224.6:4444/ses..., se:vncEnabled: true, se:vncLocalAddress: ws://192.168.224.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+dockervalidation-firefox-2  | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockervalidation-edge-1     | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockervalidation-firefox-1  | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockervalidation-chrome-1   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockervalidation-firefox-1  | 2023-07-10 17:30:42,691 WARN received SIGTERM indicating exit request
+dockervalidation-firefox-1  | 2023-07-10 17:30:42,752 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+dockervalidation-chrome-1   | 2023-07-10 17:30:42,985 WARN received SIGTERM indicating exit request
+dockervalidation-firefox-2  | 2023-07-10 17:30:43,003 WARN received SIGTERM indicating exit request
+dockervalidation-firefox-2  | 2023-07-10 17:30:43,119 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+dockervalidation-chrome-1   | 2023-07-10 17:30:43,168 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+dockervalidation-edge-1     | 2023-07-10 17:30:43,217 WARN received SIGTERM indicating exit request
+dockervalidation-edge-1     | 2023-07-10 17:30:43,291 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+selenium-hub                | 17:30:43.548 INFO [GridModel.release] - Releasing slot for session id a199105c-6801-4669-9053-f6b06fb0224e
+selenium-hub                | 17:30:43.551 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: a199105c-6801-4669-9053-f6b06fb0224e
+selenium-hub                | 17:30:43.579 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 07c4b8a3-576f-4722-bb82-b6a3f751121a
+selenium-hub                | 17:30:43.582 INFO [GridModel.release] - Releasing slot for session id 07c4b8a3-576f-4722-bb82-b6a3f751121a
+dockervalidation-firefox-1  | 2023-07-10 17:30:43,785 INFO stopped: selenium-node (terminated by SIGTERM)
+dockervalidation-firefox-2  | 2023-07-10 17:30:43,857 INFO stopped: selenium-node (terminated by SIGTERM)
+dockervalidation-chrome-1   | 2023-07-10 17:30:43,904 INFO stopped: selenium-node (terminated by SIGTERM)
+dockervalidation-edge-1     | 2023-07-10 17:30:43,922 INFO stopped: selenium-node (terminated by SIGTERM)
+dockervalidation-firefox-1  | 2023-07-10 17:30:44,843 INFO stopped: novnc (terminated by SIGTERM)
+dockervalidation-firefox-2  | 2023-07-10 17:30:44,876 INFO stopped: novnc (terminated by SIGTERM)
+dockervalidation-chrome-1   | 2023-07-10 17:30:44,917 INFO stopped: novnc (terminated by SIGTERM)
+dockervalidation-edge-1     | 2023-07-10 17:30:44,939 INFO stopped: novnc (terminated by SIGTERM)
+dockervalidation-firefox-1  | 2023-07-10 17:30:45,850 INFO stopped: vnc (terminated by SIGTERM)
+dockervalidation-firefox-1  | 2023-07-10 17:30:45,860 INFO waiting for xvfb to die
+dockervalidation-firefox-2  | 2023-07-10 17:30:45,882 INFO stopped: vnc (terminated by SIGTERM)
+dockervalidation-chrome-1   | 2023-07-10 17:30:45,921 INFO stopped: vnc (terminated by SIGTERM)
+dockervalidation-edge-1     | 2023-07-10 17:30:45,943 INFO stopped: vnc (terminated by SIGTERM)
+dockervalidation-firefox-1  | 2023-07-10 17:30:46,866 INFO stopped: xvfb (terminated by SIGTERM)
+dockervalidation-firefox-2  | 2023-07-10 17:30:46,888 INFO stopped: xvfb (terminated by SIGTERM)
+dockervalidation-chrome-1   | 2023-07-10 17:30:46,931 INFO stopped: xvfb (terminated by SIGTERM)
+dockervalidation-edge-1     | 2023-07-10 17:30:46,955 INFO stopped: xvfb (terminated by SIGTERM)
+dockervalidation-firefox-2  | Shutdown complete
+dockervalidation-chrome-1   | Shutdown complete
+dockervalidation-edge-1     | Shutdown complete
+dockervalidation-firefox-1  | Shutdown complete
+dockervalidation-firefox-2 exited with code 0
+dockervalidation-firefox-2 exited with code 143
+dockervalidation-chrome-1 exited with code 0
+dockervalidation-chrome-1 exited with code 143
+dockervalidation-edge-1 exited with code 0
+dockervalidation-edge-1 exited with code 143
+dockervalidation-firefox-1 exited with code 0
+dockervalidation-firefox-1 exited with code 143
+selenium-hub                | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+selenium-hub                | 2023-07-10 17:30:49,610 WARN received SIGTERM indicating exit request
+selenium-hub                | 2023-07-10 17:30:49,634 INFO waiting for selenium-grid-hub to die
+selenium-hub                | 2023-07-10 17:30:50,643 INFO stopped: selenium-grid-hub (terminated by SIGTERM)
+selenium-hub                | Shutdown complete
+selenium-hub exited with code 0
